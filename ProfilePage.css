@@ -1,0 +1,189 @@
+.name {
+	float: left;
+margin-left: 100px;
+
+}
+
+h1 {
+	background-color: #4aaaa5;
+	color: white;
+
+}
+
+ul li {
+	float: left;
+	margin-top: 2%;
+}
+
+ul li a {
+	text-decoration: none;
+	color: grey;
+}
+
+#data {
+	height: 8%;
+}
+
+.fullwidth {
+	width: 98%;
+}
+
+
+textarea {
+	width: 98%;
+}
+
+#btn {
+	margin-left: 20px;
+	width: 8%;
+	height: 6.5%;
+}
+
+div {
+	height: 10%;
+	/* background-color: white; */
+	color: brown;
+}
+
+#x {
+	border-bottom: 1px solid grey;
+	background-color: white;
+	margin-top: 0px;
+	box-shadow: 1px 1px black;
+}
+
+img {
+	padding-left: 30px;
+	height: 30%;
+	width: 23%;
+}
+
+#about-me h2 {
+	padding-left: 20px;
+	padding-top: 20px;
+	color: #4aaaa5;
+}
+
+#about-me1 h2 {
+	padding-left: 20px;
+	padding-top: 20px;
+	color: #4aaaa5;
+}
+
+#about-me {
+	width: 50%;
+	background-color: white;
+	margin: auto;
+	height: 900%;
+}
+
+#about-me1 {
+	width: 50%;
+	background-color: white;
+	margin: auto;
+	height: 1200%;
+}
+
+form {
+	padding-left: 20px;
+}
+
+footer {
+	background-color: grey;
+	margin-top: 35%;
+	height: 50px;
+	border-top: 5px solid #4aaaa5;
+}
+
+.footer
+{
+	background-color: grey;
+	margin-top: 45%;
+	height: 50px;
+	border-top: 5px solid #4aaaa5;
+}
+
+body {
+	display: block;
+	margin: 0px;
+}
+
+.button {
+	background-color: #4aaaa5;
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	margin-left: 20px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+}
+
+#image {
+
+	float: left;
+	margin-right: 20px;
+}
+
+.commonimageproperty
+{
+	position: absolute;
+	height: 150px;
+	width: 190px;
+	margin-left: 20px;
+border: 3px thin greenyellow;
+border-radius: 10px;
+}
+
+#image1
+{
+	margin-top: 30px;	
+}
+
+#image2
+{
+margin-top: 15%;
+}
+
+#image3
+{
+margin-left: 20%;
+margin-top: 30px;
+}
+
+#image4
+{
+	margin-left: 20%;
+	margin-top: 15%;
+}
+
+#image5
+{
+	margin-left: 20px;
+	margin-top: 28%;
+}
+
+footer h5 {
+	text-align: center;
+	padding-top: 10px;
+	color: white;
+}
+
+.name h1 {
+	margin-left: 7em;
+	margin-top: 0;
+	padding-top: 18;
+	padding-bottom: 20;
+	padding-left: 15px;
+	padding-right: 15px;
+
+}
+
+ul li:nth-child(1) {
+	margin-left: 40%
+}
+
+li {
+	list-style-type: none;
+}
