@@ -7,6 +7,8 @@ html {
   background: url("../images/background.jpg");
   height: 100vh;
   max-width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
   font-family: "Montserrat", sans-serif;
 }
 
@@ -14,10 +16,27 @@ html {
   text-decoration: none;
 }
 
+#div1 {
+  background-color: blue;
+  margin: 5% 10%;
+  height: auto;
+}
+
+#div1 section {
+  float: left;
+  width: 20%;
+}
+
+#div1 img {
+  width: 150px;
+  height: 150px;
+}
+
 #social {
   margin-left: 48%;
   margin-top: 25px;
 }
+
 h1 {
   color: #4aaaa5;
   font-family: "Georgia", Times, Times New Roman, serif;
@@ -89,6 +108,8 @@ h1 {
   margin-top: 1.5em;
   height: 100%;
   padding-bottom: 5em;
+
+  background-color: whitesmoke;
 }
 
 .container {
@@ -230,6 +251,10 @@ form button {
   height: 92%;
 }
 
+.middle {
+  margin-left: 70%;
+}
+
 /* Text sliding over image */
 .overlay {
   position: absolute;
@@ -253,4 +278,10 @@ form button {
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   text-align: center;
+}
+
+.overlay a,
+.overlay a:hover {
+  text-decoration: none;
+  color: black;
 }
