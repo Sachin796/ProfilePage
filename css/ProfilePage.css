@@ -17,19 +17,37 @@ html {
 }
 
 #div1 {
-  background-color: blue;
+  /* background-color: blue; */
   margin: 5% 10%;
   height: auto;
 }
 
 #div1 section {
-  float: left;
-  width: 20%;
+  /* float: left; */
+  box-shadow: 2px 2px #4aaaa5;
+  margin-left: 0%;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+#div1 section:hover {
+  box-shadow: 0 0 15px #4aaaa5;
+}
+
+#image {
+  margin-left: 40%;
+  margin-top: 15px;
 }
 
 #div1 img {
   width: 150px;
   height: 150px;
+  box-shadow: #4aaaa5;
+}
+
+#normal {
+  text-decoration: none;
+  color: black;
 }
 
 #social {
@@ -266,6 +284,11 @@ ul li:hover ul li {
 
 ul li ul li:hover a {
   color: white;
+}
+
+.center{
+  text-align: center;
+  margin: 15px;
 }
 
 /* Text sliding over image */
