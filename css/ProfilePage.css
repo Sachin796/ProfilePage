@@ -39,6 +39,12 @@ html {
   margin-top: 15px;
 }
 
+#desc
+{
+ margin: 15px;
+ font-family: "Times New Roman", Times, serif;
+}
+
 #div1 img {
   width: 150px;
   height: 150px;
